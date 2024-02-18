@@ -1,0 +1,83 @@
+#posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  #posts div {
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 8px;
+  }
+ 
+  input {
+  
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    
+
+  }
+  
+   button{
+   
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+  }
+
+  #btn-limit{
+    padding: 0 20px;
+    border-radius: 50px;
+    background-color: #91e81e;
+    color: #000 ;
+  }
+  #pagination button.numb{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: #fff;
+    text-align: center;
+    margin: 8px;     
+  }
+
+   
+
+  #pagination button.prev,
+  #pagination button.next{
+    padding: 0 20px;
+    border-radius: 50px;   
+  }
+
+  #pagination .dots{
+  display: inline;
+    font-size: 22px;
+    cursor: default;
+    font-style: none;
+    
+    
+  }
+
+
+#pagination button.active,
+#pagination  button.numb:hover{
+  color: #fff;
+  background: #20B2AA;
+}
+
+
+#pagination button.prev:hover,
+#pagination button.next:hover{
+  background:  #1d635f;
+ color: #fff; 
+}
